@@ -1,0 +1,40 @@
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+footer {
+    border-top: 1px solid gray;
+    padding: 30px;
+    
+}
+
+
+h3 {
+    font-size: 15px;
+}
+
+p, a {
+    font-size: 12px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:990px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cuatro {
+        flex-basis: 100%;
+    }
+}
+
+
+
